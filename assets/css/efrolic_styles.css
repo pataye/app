@@ -1,0 +1,40 @@
+/*.topnav {
+    background-color: #333;
+    overflow: hidden;
+    transition: top 0.3s;
+    position: fixed;
+    top: 0px;
+    width:100%;
+    z-index: 1000;
+}*/
+
+.scroller {
+  transition: all .5s ease-in-out;
+}
+
+.btn-scroller {
+  transition: all .5s ease-in-out;
+}
+
+.bg-1 {
+
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3)), url("../../assets/img/bg-1.jpg");
+    background-size      : cover;
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    height               : 100%;
+}
+
+.bg-2 {
+
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3)), url("../../assets/img/bg-2.jpg");
+    background-size      : cover;
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    height               : 100%;
+}
+
+.bg-1, .bg-2
+{
+    color: #ffffff;
+}

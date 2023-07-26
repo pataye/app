@@ -15,7 +15,7 @@ let paramsDefault = {
     },
     optionsBot: {
         name: 'Pataye Bot',
-        image: 'https://img.icons8.com/plasticine/2x/bot.png',
+        image: 'assets/img/bot.png',
         messageDefault: 'Hola, 👋 ¿en qué puedo ayudarte?',
         messageTyping: 'está escribiendo...'
     }
@@ -44,7 +44,7 @@ function createElements(params) {
         paramsDefault = params;
 
     const strTarget = ` <a href="#" id="whatsapp-widget-target" class="whatsapp-widget-target pulse">
-    <img id="whatsapp-widget-icon" class="whatsapp-widget-icon" src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png"/>
+    <img id="whatsapp-widget-icon" class="whatsapp-widget-icon" style="width:30px" src="assets/img/WhatsApp-icone.png"/>
     </a>`;
 
     const strChat = `<div class="whatsapp-widget-chat" id="whatsapp-widget-chat">
