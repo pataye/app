@@ -18,7 +18,7 @@
 
 .bg-1 {
 
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3)), url("../../assets/img/bg-1.jpg");
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3)), url("../../assets/img/bg-1.webp");
     background-size      : cover;
     background-repeat    : no-repeat;
     background-attachment: fixed;
@@ -27,7 +27,7 @@
 
 .bg-2 {
 
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3)), url("../../assets/img/bg-2.jpg");
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3)), url("../../assets/img/bg-2.webp");
     background-size      : cover;
     background-repeat    : no-repeat;
     background-attachment: fixed;
