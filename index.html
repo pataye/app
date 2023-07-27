@@ -13,7 +13,7 @@
         initWidget()
     </script>
 
-    <title>Pataye - Condominio Online</title>
+    <title>Pataye - Condominio en línea</title>
 
     <script type="text/javascript">
         var part1 = "p"+"a"+"t"+"a"+"y"+"e"+"s"+"e"+"r"+"v"+"i"+"c"+"e";
@@ -27,26 +27,25 @@
     <main class="e-face e-fullscreen bg-1">
       <nav class="e-nav fixed no-bg scroller" id="myTopnav" name="myTopnav">
         <!--<img src="https://bit.ly/2D7yayE" style="width:90px;height:auto;">-->
-        <a class="e-btn anime dark">PATAYE TECHNOLOGIES</a>
+        <a href="#principal" class="e-btn anime dark">PATAYE TECHNOLOGIES</a>
         <label for="e-menu" class="e-btn btn-scroller anime dark no-desktop" id="myBtnnav" name="myBtnnav"><i class="fas fa-bars"></i></label>
         <input type="checkbox" id="e-menu">
         <div class="e-menu">
           <i class="e-distribution"></i>
-          <a class="e-btn anime success">Principal</a>
-          <a class="e-btn anime primary">Nosotros</a>
-          <a class="e-btn anime sky">Servicios</a>
-          <a class="e-btn anime danger">Contacto</a>
+          <a href="#principal" class="e-btn anime success">Principal</a>
+          <a href="#nosotros" class="e-btn anime primary">Nosotros</a>
+          <a href="#servicios" class="e-btn anime sky">Servicios</a>
+          <a href="#contacto" class="e-btn anime danger">Contacto</a>
       </div>
   </nav>
 
   <!-- Body -->
-  <section class="face-body centered eUp">
+  <section class="face-body centered eUp" id="principal">
     <div class="e-container">
         <h1 class="size-plus">ComOrg</h1>
         <h2>Comunidades Organizadas</h2>
         <p>Administra tu condominio sin complicaciones</p>
-        <a class="e-btn outlined anime success plus ">Ver más</a>
-        <a class="e-btn outlined anime danger plus ">Demo</a>
+        <a href="#nosotros" class="e-btn outlined anime success plus ">Ver más</a>
         <div class="e-cols">
             <div class="e-col e-alert sky e-btn anime">
                 Registra gastos e ingresos
@@ -70,7 +69,7 @@
 <br>
 <br>
 <main>
-    <section class="face-body eUp">
+    <section class="face-body eUp" id="nosotros">
       <div class="face-item">
         <h1 class="e-title">Desarrollamos software</h1>
         <h2 class="e-subtitle">Ayudamos a las personas</h2>
@@ -89,7 +88,7 @@
 <br>
 <br>
 <main>
-    <section class="face-body eUp centered">
+    <section class="face-body eUp centered"  id="servicios">
         <h1>Características principales</h1>
         <div class="e-cards deck">
             <div class="e-card profile" style="width:20rem;">
@@ -139,7 +138,7 @@
   <br>
   <br>
   <main>
-    <section class="face-body eUp">
+    <section class="face-body eUp" id="contacto">
         <div class="face-item">
             <img src="https://pataye.github.io/app/assets/img/6.webp" />
         </div>

@@ -8,6 +8,8 @@
     z-index: 1000;
 }*/
 
+html{scroll-behavior:smooth}
+
 .scroller {
   transition: all .5s ease-in-out;
 }
